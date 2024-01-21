@@ -1,0 +1,42 @@
+.styled-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: yellow;
+}
+
+.blue-underline {
+    color: blue;
+    text-decoration: underline;
+}
+
+.success, .failure {
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.success {
+    background-color: rgb(117, 243, 117);
+    color: white;
+    border-radius: 5px;
+    border: black;
+}
+
+.failure {
+    background-color: rgb(245, 86, 86);
+    color: white;
+    border-radius: 5px;
+    border: black
+
+}
